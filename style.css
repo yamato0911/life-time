@@ -1,0 +1,343 @@
+body {
+  font-family: 'Sawarabi Gothic', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  height: 74px;
+  background-color: red;
+}
+
+header nav {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header a {
+  text-decoration: none;
+  display: inline-block;
+  margin: 28px 30px;
+}
+
+header a:hover {
+  text-decoration: none;
+}
+
+header .header-left {
+  font-weight: bold;
+  color: white;
+  font-size: 16px;
+}
+
+header .header-right {
+  margin-left: auto;
+  width: 100px;
+  height: 33px;
+  line-height: 33px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  background-color: white;
+  color: red;
+  border-radius: 3px;
+}
+
+header .header-right::after {
+  font-family: "Font Awesome 5 Brands";
+  content: "\f099";
+  display: inline-block;
+  font-weight: 900;
+  text-rendering: auto;
+  line-height: 1;
+  padding-left: 5px;
+}
+
+.top-logo {
+  max-width: 350px;
+  margin: 50px 0;
+}
+
+main {
+  background-color: beige;
+  padding-bottom: 50px;
+}
+
+main .container {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 500px;
+}
+
+main .main-text {
+  font-size: 16px;
+  line-height: 32px;
+}
+
+main .hight-light {
+  color: red;
+  font-weight: bold;
+}
+
+main .submit-btn {
+  width: 100%;
+  height: 42px;
+  background-color: red;
+  border-radius: 5px;
+  font-size: 24px;
+  line-height: 24px;
+  padding: 9px;
+  color: white;
+  margin-top: 30px;
+}
+
+main .again {
+  display: inline-block;
+  width: 80%;
+  margin: 30px 0;
+}
+
+main .again:hover {
+  text-decoration: none;
+}
+
+main .badge {
+  height: 26px;
+  line-height: 20px;
+  width: 56px !important;
+}
+
+main .sub-title {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.content-width {
+  margin: 0 auto 10px;
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  border: 2px dashed grey;
+  padding: 20px;
+  background-color: whitesmoke;
+}
+
+.content-width .section1, .content-width .section2, .content-width .section3 {
+  margin-bottom: 30px;
+}
+
+.content-width .answer-section {
+  background-color: #ffe4e2;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.content-width .answer {
+  font-size: 24px;
+  color: red;
+  font-weight: bold;
+}
+
+.content-width .value {
+  font-size: 16px;
+}
+
+.content-width .section1 {
+  text-align: left;
+}
+
+.content-width .section2 {
+  border-top: 1px solid grey;
+}
+
+.content-width .section2 h2 {
+  font-size: 18px;
+  margin: 40px 5px 20px;
+}
+
+.content-width .section2 .col-sm-12 img {
+  max-width: 90%;
+}
+
+.content-width .section2 .circle {
+  background-color: white;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: relative;
+  margin: 0 auto;
+}
+
+.content-width .section2 .circle > span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 24px;
+  color: white;
+}
+
+.content-width .section2 .green {
+  background-color: green;
+}
+
+.content-width .section2 .red {
+  background-color: red;
+}
+
+.content-width .section3 {
+  border-top: 1px solid grey;
+  text-align: left;
+}
+
+.content-width .section3 .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: row !important;
+          flex-direction: row !important;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+}
+
+.content-width .section3 .box .select-box {
+  height: 40px;
+}
+
+.content-width .section3 .font-24 {
+  font-size: 20px;
+}
+
+.content-width .section3 .advice-wrap {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.content-width .section3 .advice-wrap .advice {
+  position: relative;
+}
+
+.content-width .section3 .advice-wrap .good {
+  cursor: pointer;
+  color: orangered;
+}
+
+.content-width .section3 .advice-wrap .plus {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+}
+
+.content-width .section3 .advice-wrap .g-answer {
+  display: none;
+}
+
+.content-width .section3 .advice-wrap .g-answer > p {
+  color: #555;
+  font-size: 16px;
+}
+
+.content-width .section4 {
+  border-top: 1px solid grey;
+  text-align: center;
+}
+
+.content-width .section4 .share {
+  color: #128acf;
+}
+
+.content-width .section4 .share::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f00c";
+  display: inline-block;
+  font-weight: 900;
+  line-height: 1;
+  padding-right: 5px;
+}
+
+.content-width .twitter {
+  border: 1px solid #007bff;
+  color: #007bff;
+  display: inline-block;
+  border-radius: 4px;
+  padding: 10px;
+  width: 80%;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.content-width .twitter:hover {
+  color: white;
+  background-color: #007bff;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.table {
+  background-color: whitesmoke;
+  padding-bottom: 30px;
+}
+
+.table .table-btn {
+  border: 1px solid orange;
+  width: 100px;
+  margin-left: 20px;
+  background-color: white;
+  color: orange !important;
+  float: right;
+}
+
+.table .table-btn > a {
+  color: orange;
+}
+
+.table td {
+  color: black;
+  text-align: left;
+}
+
+.table td a {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.table td a:hover {
+  color: black !important;
+  text-decoration: none !important;
+}
+
+footer {
+  height: 74px;
+  background-color: red;
+  line-height: 74px;
+  font-size: 16px;
+  text-align: center;
+}
+
+footer .footer-text {
+  color: white;
+  margin: 0;
+}
+/*# sourceMappingURL=style.css.map */
